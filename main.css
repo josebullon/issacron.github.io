@@ -1,0 +1,44 @@
+.facebook {
+  color: #fff;
+  background: rgba(59, 88, 151);
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, .27);
+}
+
+.github {
+  color: #fff;
+  background: rgba(23, 20, 20);
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, .27);
+}
+
+.gitlab {
+  color: #fff;
+  background: linear-gradient(-120deg, #fca326, #fc6d26, #e24329, #554488);
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, .27);
+}
+
+.instagram {
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, .27);
+
+}
+
+.linkedin {
+  color: #fff;
+  background: rgb(14, 120, 170);
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, .27);
+}
+
+.twitter {
+  color: #fff;
+  background: rgba(29, 161, 242);
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, .27);
+}
+
+.txt {
+  text-align: justify;
+}
+
+.pb-33 {
+  padding: 3px 3px;
+}

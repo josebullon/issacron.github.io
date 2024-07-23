@@ -1,0 +1,642 @@
+
+@media (min-width: 1921px) {
+    .menu-primary-menu {
+        padding-left: 0;
+        justify-content: center;
+    }
+    .home-2 .wrap > img {
+        height: unset;
+    }
+}
+
+@media (max-width: 1440px) {
+    .menu-primary-menu {
+        padding-left: 0;
+        justify-content: center;
+    }
+    .footer > .right {
+        right: 30px;
+        top: 85px;
+    }
+    .footer > .left {
+        left: 30px;
+        top: 85px;
+    }
+    .our-menu .left {
+        padding-top: 0;
+        padding-left: 50px;
+        width: 35%;
+    }
+    .our-menu .left .text-special {
+        top: 0;
+        left: 0;
+    }
+    .our-menu .wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .our-menu .right {
+        padding-left: 0;
+        padding-right: 40px;
+        width: 45%;
+    }
+    .widget-menu-tab {
+        margin-bottom: 40px;
+    }
+    .wg-introduction .wrap {
+        gap: 30px;
+    }
+    .wg-introduction .wrap .content {
+        padding-top: 0 !important;
+        padding-left: 0px !important;
+    }
+    .customer-testimonial {
+        background-position: center 104px !important;
+        background-size: cover;
+    }
+    .book-table .left {
+        display: none;
+    }
+    .book-table .content {
+        padding-left: 15px;
+        min-width: 555px;
+    }
+    .book-table .wg-map {
+        margin-left: 15px;
+    }
+    .book-table .images .item-2 {
+        margin-left: 100px;
+    }
+    .portfolio-item .content {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .home-2 .wrap > img {
+        height: unset;
+    }
+    .portfolio-item .content {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .wg-contact .bot-left,
+    .wg-contact .top-right {
+        padding: 30px;
+    }
+    .wg-contact .top-right > img,
+    .wg-contact .bot-left > img {
+        display: none;
+    }
+    .customer-testimonial.style-1 {
+        background-position: center;
+        background-size: cover;
+    }
+    .our-menu.style-1 .wrap {
+        padding: 100px 15px;
+    }
+    .our-menu.style-1 .center {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .wg-about.style-2 .images {
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .wg-about.style-1 .images {
+        margin-left: 0;
+        width: 100%;
+    }
+    .wg-about.style-2 .wrap,
+    .wg-about.style-1 .wrap {
+        padding-left: 0;
+        padding-right: 0;
+        gap: 30px;
+        justify-content: center;
+    }
+    .wg-about.style-2 .content {
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .wg-about.style-1 .content {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    .our-chef-item .content {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .our-chef-item .image {
+        padding-right: 100px;
+        padding-left: 15px;
+    }
+    .wg-our-chef .style-text-1 {
+        right: 40px;
+    }
+    .space-info .wrap .item-1 {
+        top: -100px;
+        z-index: -1;
+    }
+    .wg-cuisine,
+    .wg-service.type-1 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .wg-book-table .content {
+        padding-bottom: 35px;
+    }
+    .wg-book-table,
+    .wg-policy {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .wg-introduction .wrap {
+        flex-wrap: wrap;
+    }
+    .wg-introduction .wrap .content,
+    .wg-introduction .wrap .image {
+        width: 100%;
+    }
+    .home-2 .mobile-nav-wrap .inner-mobile-nav {
+        padding: 30px;
+        width: -webkit-fill-available;
+    }
+    .home-2 .inner-mobile-nav > div {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .home-2 .inner-mobile-nav > img {
+        display: none;
+    }
+    .home-2 .mobile-nav-wrap.active .inner-mobile-nav {
+        padding: 30px;
+        width: min-content;
+        flex-wrap: wrap;
+    }
+    .home-2 .mobile-nav-wrap.active .inner-mobile-nav > div {
+        width: 100%;
+        border-right: unset;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    
+    .page-title .bottom > div {
+        padding-left: 40px !important;
+        padding-right: 100px !important;
+    }
+    .book-table .right {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .book-table .content {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .book-table .wg-map {
+        margin-right: 15px;
+    }
+    .book-table .images {
+        display: none;
+    }
+    .wg-book-table.style-1 .right,
+    .wg-book-table.style-1 .left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .footer > .left,
+    .footer > .right {
+        display: none;
+    }
+    .page-title .bottom .search-box .top-search {
+        left: 15px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .wg-cuisine .content {
+        max-width: 600px;
+        padding: 20px 30px 30px 30px;
+    }
+    .wg-cuisine .content .title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wg-about .wrap {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .wg-about .images {
+        width: 100%;
+        min-width: unset;
+        height: unset;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .wg-about .images img {
+        position: unset !important;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .wg-service .right .item-2 {
+        position: unset;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .book-table .content {
+        min-width: 500px;
+    }
+    .footer.style-1 .content .top .text {
+        padding-top: 0;
+    }
+    .wg-contact {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .wg-contact .bot-right {
+        height: 500px;
+    }
+    .wg-policy {
+        flex-wrap: wrap;
+    }
+    .wg-policy .left {
+        width: 100%;
+        min-width: unset;
+    }
+    .wg-policy .right {
+        height: 750px;
+    }
+    .wg-about.style-2 .content {
+        padding-bottom: 0;
+    }
+    .wg-about.style-2 .images {
+        padding-top: 0;
+        flex-wrap: nowrap;
+        width: unset;
+        min-width: unset;
+        gap: 15px;
+    }
+    .wg-about.style-2 .images img {
+        height: fit-content;
+    }
+    .our-chef-item .content {
+        padding-bottom: 200px;
+    }
+    .space-item .content p,
+    .space-item .content .title {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .space-info .wrap .item-1,
+    .tf-mouse,
+    .canvas,
+    .main-nav {
+        display: none;
+    }
+    .mobile-button {
+        display: block;
+    }
+    .header-inner {
+        padding-top: 30px !important;
+        padding-bottom: 29px !important;
+    }
+    .swiper-button,
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-pagination {
+        display: none !important;
+    }
+    .footer.style-1 .content .top > div,
+    .footer.style-1 .content .top > form {
+        width: 50%;
+    }
+    .footer.style-1 .logo-footer {
+        justify-content: center;
+    }
+    .footer.style-1 .logo-footer p {
+        margin-right: 0;
+        text-align: center;
+    }
+    .our-chef-item .image {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 820px) {
+    .wg-service .right .item-1 {
+        width: 100%;
+    }
+    .our-menu .wrap {
+        flex-wrap: wrap;
+    }
+    .our-menu .left {
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    .our-menu .center {
+        margin-top: 0;
+    }
+    .our-menu .right {
+        width: 100%;
+    }
+    .book-table .right {
+        flex-wrap: wrap;
+    }
+    .book-table .content {
+        width: 100%;
+        min-width: unset;
+        padding-right: 15px;
+    }
+    .book-table .wg-map {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .home-2 .wrap > img {
+        height: 500px;
+    }
+    .our-menu.style-1 .wrap {
+        gap: 15px;
+    }
+    .our-menu.style-1 .left {
+        order: 1;
+        width: 48%;
+        padding-top: 0;
+    }
+    .our-menu.style-1 .right {
+        order: 2;
+        width: 48%;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .our-menu.style-1 .center {
+        order: 3;
+        width: 100%;
+    }
+    .wg-about.style-2 .images {
+        flex-wrap: wrap;
+    }
+    .our-chef-item {
+        flex-wrap: wrap;
+    }
+    .our-chef-item .content,
+    .our-chef-item .image {
+        width: 100%;
+    }
+    .our-chef-item .image {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 0;
+    }
+    .our-chef-item .image img {
+        width: 100%;
+    }
+    .wg-book-table.style-1 {
+        flex-wrap: wrap;
+    }
+    .wg-book-table.style-1 .right,
+    .wg-book-table.style-1 .left {
+        order: 1;
+        width: 50%;
+        padding-top: 0;
+    }
+    .wg-book-table.style-1 .content {
+        order: 2;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cart-item {
+        flex-wrap: wrap;
+    }
+    .cart-item .content {
+        margin-top: 0;
+    }
+    .product-item.style-list .content {
+        flex-wrap: wrap;
+    }
+    .product-item.style-list .content > div {
+        width: 100%;
+        justify-content: center;
+    }
+    .wg-shop-detail .content-inner {
+        padding-left: 0;
+    }
+    .wg-portfolio {
+        padding-bottom: 30px;
+    }
+    .wg-cuisine .content {
+        margin: 15px 0;
+        max-width: 500px;
+    }
+    .wg-cuisine {
+        height: 800px;
+    }
+    .wg-cuisine .img-text {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .bottom {
+        padding: 0;
+        justify-content: center;
+        gap: 15px;
+    }
+    .wg-book-table .content, .wg-book-table .image {
+        width: 100%;
+    }
+    .wg-book-table .image {
+        height: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    br {
+        display: none;
+    }
+    .page-title .content {
+        padding-top: 60px;
+        padding-bottom: 243px;
+    }
+    .page-title .bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .page-title .bottom > div {
+        padding: 0 !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .wg-about .content {
+        padding: 0;
+    }
+    .wg-service .left {
+        padding: 30px;
+    }
+    .our-menu .center {
+        width: 100%;
+        text-align: center;
+    }
+    .our-menu .left,
+    .our-menu .right {
+        width: 100%;
+    }
+    .our-menu .left {
+        margin-bottom: 30px;
+    }
+    .widget-menu-tab {
+        flex-wrap: wrap;
+        margin-right: -40px;
+    }
+    .book-table .wg-map {
+        width: 340px;
+        min-width: 340px;
+        height: 340px;
+        margin-top: 0 !important;
+    }
+    .footer.style-1 .content .top {
+        flex-wrap: wrap;
+    }
+    .footer.style-1 .content .top > div,
+    .footer.style-1 .content .top > form {
+        margin: 0 !important;
+        padding: 15px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .footer.style-1 .content .top form input {
+        width: 100%;
+    }
+    .home-2 .wrap > img {
+        display: none;
+    }
+    .home-2 .wrap {
+        height: 500px;
+        width: 100%;
+        background-image: url(../images/bg-section/bg-home-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .wg-contact .top-right ul {
+        grid-template-columns: repeat(1,1fr);
+    }
+    form .columns {
+        flex-wrap: wrap;
+    }
+    .wg-policy .left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .wg-policy .right .book-table {
+        top: 15px;
+        left: 15px;
+        width: unset;
+    }
+    .wg-policy .right .book-table .content {
+        padding: 30px;
+        min-width: unset;
+    }
+    .our-menu.style-1 .left {
+        width: 100%;
+        padding-top: 15px;
+    }
+    .our-menu.style-1 .right {
+        width: 100%;
+        padding-top: 15px;
+    }
+    .our-menu.style-1 .center {
+        order: 3;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .our-menu.style-1 .widget-menu-tab {
+        margin-right: 0;
+        justify-content: space-evenly;
+        padding: 0;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+    .wg-about.style-1 .images {
+        width: unset;
+        min-width: unset;
+        padding-left: 15px;
+        padding-top: 100px;
+    }
+    .wg-book-table.style-1 .right,
+    .wg-book-table.style-1 .left {
+        width: 100%;
+        padding-top: 30px;
+    } 
+    .wg-book-table.style-1 .right img ,
+    .wg-book-table.style-1 .left img {
+        width: 100%;
+    }
+    .wg-book-table.style-1 .content p,
+    .wg-book-table.style-1 .content form {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .side-bar {
+        margin-top: 50px;
+    }
+    .cart-item {
+        flex-wrap: nowrap;
+    }
+    .widget-tabs.style-1 .widget-menu-tab {
+        margin-right: 0;
+        gap: 15px 61px;
+    }
+    .wg-404 {
+        height: auto;
+    }
+    .wg-404 .content {
+        padding: 50px 15px 30px 15px;
+    }
+    .wg-404 .content img {
+        width: 200px;
+    }
+    .wg-404 .title::before {
+        top: 37px;
+        left: 0;
+        font-size: 119px;
+        transform: none;
+    }
+    .wg-404 .title::after {
+        top: 37px;
+        right: 0;
+        font-size: 119px;
+        transform: none;
+    }
+    .wg-cuisine {
+        height: 1000px;
+    } 
+    .page-title .bottom .search-box .top-search {
+        transform: translateX(-50%);
+    }
+    .home-2 .mobile-nav-wrap.active .inner-mobile-nav {
+        width: -webkit-fill-available;
+        padding: 15px;
+    }
+    .home-2 .inner-mobile-nav .right .wg-map {
+        width: 230px;
+        height: 230px;
+    }
+    .footer.style-1 .logo-footer {
+        justify-content: center;
+    }
+    .footer.style-1 .logo-footer p {
+        text-align: center;
+    }
+}

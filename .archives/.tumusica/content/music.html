@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Miraculous - Online Music Store Html Template
+Version: 1.0.0
+Author: Kamleshyadav
+Website: 
+Purchase: 
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <!-- Begin Head -->
+
+  <!-- Mirrored from kamleshyadav.com/html/miraculous/html/Bootstrap5/version3/music.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Jul 2024 22:12:55 GMT -->
+  <head>
+    <title>Miraculous - Online Music Store Html Template</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="Music" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="kamleshyadav" />
+    <meta name="MobileOptimized" content="320" />
+    <!--Start Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/js/plugins/swiper/css/swiper.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/js/plugins/player/volume.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/js/plugins/scroll/jquery.mCustomScrollbar.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Favicon Link -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/favicon.png"
+    />
+  </head>
+
+  <body>
+    <!----Loader Start---->
+    <div class="ms_loader">
+      <div class="wrap">
+        <img src="assets/images/loader.gif" alt="loader" />
+      </div>
+    </div>
+    <!----Main Wrapper Start---->
+    <div class="ms_main_wrapper">
+      <!---Side Menu Start--->
+      <div class="ms_sidemenu_wrapper">
+        <div class="ms_nav_close ms_cmenu_toggle">
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <div class="ms_sidemenu_inner">
+          <div class="ms_logo_inner">
+            <div class="ms_logo">
+              <a href="index.html"
+                ><img src="assets/images/logo.png" alt="logo" class="img-fluid"
+              /></a>
+            </div>
+            <div class="ms_logo_mini">
+              <a href="index.html"
+                ><img
+                  src="assets/images/mini_logo.png"
+                  alt="mini_logo"
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+          <div class="ms_nav_wrapper">
+            <h4 class="nav_heading">Browse Music</h4>
+            <ul>
+              <li>
+                <a href="index.html" title="Discover">
+                  <span class="nav_icon">
+                    <span class="icon icon_discover"></span>
+                  </span>
+                  <span class="nav_text"> discover </span>
+                </a>
+              </li>
+              <li>
+                <a href="artist.html" title="Artists">
+                  <span class="nav_icon">
+                    <span class="icon icon_artists"></span>
+                  </span>
+                  <span class="nav_text"> artists </span>
+                </a>
+              </li>
+              <li>
+                <a href="album.html" title="Albums">
+                  <span class="nav_icon">
+                    <span class="icon icon_albums"></span>
+                  </span>
+                  <span class="nav_text"> albums </span>
+                </a>
+              </li>
+              <li>
+                <a href="stations.html" title="Stations">
+                  <span class="nav_icon">
+                    <span class="icon icon_station"></span>
+                  </span>
+                  <span class="nav_text"> stations </span>
+                </a>
+              </li>
+              <li>
+                <a href="music.html" class="active" title="Music">
+                  <span class="nav_icon">
+                    <span class="icon icon_music"></span>
+                  </span>
+                  <span class="nav_text"> music </span>
+                </a>
+              </li>
+            </ul>
+            <h4 class="nav_heading">Your Music</h4>
+            <ul class="nav_downloads">
+              <li>
+                <a href="download.html" title="Downloads">
+                  <span class="nav_icon">
+                    <span class="icon icon_download"></span>
+                  </span>
+                  <span class="nav_text"> downloads </span>
+                </a>
+              </li>
+              <li>
+                <a href="purchase.html" title="Purchased">
+                  <span class="nav_icon">
+                    <span class="icon icon_purchased"></span>
+                  </span>
+                  <span class="nav_text"> purchased </span>
+                </a>
+              </li>
+              <li>
+                <a href="favourite.html" title="Favourites">
+                  <span class="nav_icon">
+                    <span class="icon icon_favourite"></span>
+                  </span>
+                  <span class="nav_text"> favourites </span>
+                </a>
+              </li>
+              <li>
+                <a href="history.html" title="History">
+                  <span class="nav_icon">
+                    <span class="icon icon_history"></span>
+                  </span>
+                  <span class="nav_text"> history </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!---Main Content Start--->
+      <div class="ms_content_wrapper padder_top8">
+        <!---Header--->
+        <div class="ms_header">
+          <div class="ms_header_inner">
+            <div class="ms_top_left">
+              <div class="ms_top_search">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search for Song, Artists, Playlists and More..."
+                />
+                <span class="search_icon">
+                  <img src="assets/images/svg/search.svg" alt="search" />
+                </span>
+              </div>
+              <div class="ms_noti_wrap">
+                <span class="noti_icon bg_cmn_iconwrap"
+                  ><i class="bg_cmn_icon"></i
+                ></span>
+              </div>
+            </div>
+            <div class="ms_top_right">
+              <div class="ms_pro_inner">
+                <div class="ms_pro_img">
+                  <img src="assets/images/proflile.jpg" alt="Profile" />
+                </div>
+                <div class="ms_pro_namewrap">
+                  <span class="pro_name">Hello, David</span>
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <ul class="ms_common_dropdown ms_profile_dropdown">
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="common_drop_icon drop_pro"></span>Profile
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="common_drop_icon drop_logt"></span>Logout
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="ms_cmenu_toggle ms_menu_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---Artist page--->
+        <div class="ms_music_wrapper common_pages_space">
+          <div class="ms_music_inner">
+            <div class="ms_music_row">
+              <div class="ms_music_left">
+                <div class="music_center_slider">
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="music_center_mainbox text-center">
+                          <div class="music_center_img">
+                            <img
+                              src="assets/images/music/01.jpg"
+                              alt="music"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="music_center_info">
+                            <a
+                              href="javascript:void(0);"
+                              class="music_center_title"
+                              >Don’t Let me down</a
+                            >
+                            <p class="music_center_sub">
+                              Harry Jackson, Virginia Harris
+                            </p>
+                            <div class="music_center_details">
+                              <a class="ms_btn" href="javascript:void(0);">
+                                Play All</a
+                              >
+                              <span class="music_center_dwld">
+                                <i class="center_dwld_icon"></i>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="music_center_mainbox text-center">
+                          <div class="music_center_img">
+                            <img
+                              src="assets/images/music/02.jpg"
+                              alt="music"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="music_center_info">
+                            <a
+                              href="javascript:void(0);"
+                              class="music_center_title"
+                              >Walking Promises</a
+                            >
+                            <p class="music_center_sub">
+                              David Parker, Virginia Harris
+                            </p>
+                            <div class="music_center_details">
+                              <a class="ms_btn" href="javascript:void(0);">
+                                Play All</a
+                              >
+                              <span class="music_center_dwld">
+                                <i class="center_dwld_icon"></i>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="music_center_mainbox text-center">
+                          <div class="music_center_img">
+                            <img
+                              src="assets/images/music/03.jpg"
+                              alt="music"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="music_center_info">
+                            <a
+                              href="javascript:void(0);"
+                              class="music_center_title"
+                            >
+                              Desired Games</a
+                            >
+                            <p class="music_center_sub">
+                              Kevin Buckland, Carl Brown
+                            </p>
+                            <div class="music_center_details">
+                              <a class="ms_btn" href="javascript:void(0);">
+                                Play All</a
+                              >
+                              <span class="music_center_dwld">
+                                <i class="center_dwld_icon"></i>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Add Arrows -->
+                  <div class="slider_music_controls">
+                    <!-- <span class="swiper-music-next"><img src="images/svg/left_arrow.svg" alt="Arrow"></span>
+                                <span class="swiper-music-prev"><img src="images/svg/left_arrow.svg" alt="Arrow"></span> -->
+
+                    <span class="swiper-music-next">
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="6px"
+                        height="10px"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          fill="rgb(142, 165, 194)"
+                          d="M5.715,8.455 L2.316,5.062 C2.275,5.022 2.275,4.957 2.316,4.918 L5.715,1.525 C6.065,1.176 6.065,0.610 5.715,0.261 L5.715,0.261 C5.365,-0.088 4.798,-0.088 4.448,0.261 L0.199,4.501 C-0.072,4.771 -0.072,5.209 0.199,5.479 L4.448,9.719 C4.798,10.068 5.365,10.068 5.715,9.719 L5.715,9.719 C6.065,9.370 6.065,8.804 5.715,8.455 Z"
+                        />
+                      </svg>
+                    </span>
+                    <span class="swiper-music-prev">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="6px"
+                        height="10px"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          fill="rgb(142, 165, 194)"
+                          d="M5.715,8.455 L2.316,5.062 C2.275,5.022 2.275,4.957 2.316,4.918 L5.715,1.525 C6.065,1.176 6.065,0.610 5.715,0.261 L5.715,0.261 C5.365,-0.088 4.798,-0.088 4.448,0.261 L0.199,4.501 C-0.072,4.771 -0.072,5.209 0.199,5.479 L4.448,9.719 C4.798,10.068 5.365,10.068 5.715,9.719 L5.715,9.719 C6.065,9.370 6.065,8.804 5.715,8.455 Z"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <h2 class="music_listwrap_tttl">
+                  David Parker Songs ( 05 Songs )
+                </h2>
+                <div class="music_listwrap">
+                  <div class="ms_songslist_box">
+                    <ul class="ms_songlist">
+                      <li>
+                        <div class="ms_songslist_inner">
+                          <div class="ms_songslist_left">
+                            <div class="songslist_number">
+                              <h4 class="songslist_sn">01</h4>
+                              <span class="songslist_play"
+                                ><img
+                                  src="assets/images/svg/play_songlist.svg"
+                                  alt="Play"
+                                  class="img-fluid"
+                              /></span>
+                            </div>
+                            <div class="songslist_details">
+                              <div class="songslist_thumb">
+                                <img
+                                  src="assets/images/songlist/01.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="songslist_name">
+                                <h3 class="song_name">
+                                  <a href="javascript:void(0);"
+                                    >Walking Promises</a
+                                  >
+                                </h3>
+                                <p class="song_artist">
+                                  Harry Jackson, Virginia Harris
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="ms_songslist_right">
+                            <span class="ms_songslist_like">
+                              <svg
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="17px"
+                                height="16px"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  fill="rgb(124, 142, 165)"
+                                  d="M11.777,-0.000 C10.940,-0.000 10.139,0.197 9.395,0.585 C9.080,0.749 8.783,0.947 8.506,1.173 C8.230,0.947 7.931,0.749 7.618,0.585 C6.874,0.197 6.073,-0.000 5.236,-0.000 C2.354,-0.000 0.009,2.394 0.009,5.337 C0.009,7.335 1.010,9.428 2.986,11.557 C4.579,13.272 6.527,14.702 7.881,15.599 L8.506,16.012 L9.132,15.599 C10.487,14.701 12.436,13.270 14.027,11.557 C16.002,9.428 17.004,7.335 17.004,5.337 C17.004,2.394 14.659,-0.000 11.777,-0.000 ZM5.236,2.296 C6.168,2.296 7.027,2.738 7.590,3.507 L8.506,4.754 L9.423,3.505 C9.986,2.737 10.844,2.296 11.777,2.296 C13.403,2.296 14.727,3.660 14.727,5.337 C14.727,6.734 13.932,8.298 12.364,9.986 C11.114,11.332 9.604,12.490 8.506,13.255 C7.409,12.490 5.899,11.332 4.649,9.986 C3.081,8.298 2.286,6.734 2.286,5.337 C2.286,3.660 3.610,2.296 5.236,2.296 Z"
+                                />
+                              </svg>
+                            </span>
+                            <span class="ms_songslist_time">04:23</span>
+                            <div class="ms_songslist_more">
+                              <span class="songslist_moreicon"
+                                ><svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  width="4px"
+                                  height="20px"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    fill="rgb(124, 142, 165)"
+                                    d="M2.000,12.000 C0.895,12.000 -0.000,11.105 -0.000,10.000 C-0.000,8.895 0.895,8.000 2.000,8.000 C3.104,8.000 4.000,8.895 4.000,10.000 C4.000,11.105 3.104,12.000 2.000,12.000 ZM2.000,4.000 C0.895,4.000 -0.000,3.105 -0.000,2.000 C-0.000,0.895 0.895,-0.000 2.000,-0.000 C3.104,-0.000 4.000,0.895 4.000,2.000 C4.000,3.105 3.104,4.000 2.000,4.000 ZM2.000,16.000 C3.104,16.000 4.000,16.895 4.000,18.000 C4.000,19.105 3.104,20.000 2.000,20.000 C0.895,20.000 -0.000,19.105 -0.000,18.000 C-0.000,16.895 0.895,16.000 2.000,16.000 Z"
+                                  /></svg
+                              ></span>
+                              <ul
+                                class="ms_common_dropdown ms_songslist_dropdown"
+                              >
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_fav"
+                                    ></span
+                                    >Favourites
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_downld"
+                                    ></span
+                                    >Download Now
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_playlist"
+                                    ></span
+                                    >Add to Playlist
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_share"
+                                    ></span
+                                    >Share
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="ms_songslist_inner">
+                          <div class="ms_songslist_left">
+                            <div class="songslist_number">
+                              <h4 class="songslist_sn">02</h4>
+                              <span class="songslist_play"
+                                ><img
+                                  src="assets/images/svg/play_songlist.svg"
+                                  alt="Play"
+                                  class="img-fluid"
+                              /></span>
+                            </div>
+                            <div class="songslist_details">
+                              <div class="songslist_thumb">
+                                <img
+                                  src="assets/images/songlist/02.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="songslist_name">
+                                <h3 class="song_name">
+                                  <a href="javascript:void(0);"
+                                    >Desired Games</a
+                                  >
+                                </h3>
+                                <p class="song_artist">2020</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="ms_songslist_right">
+                            <span class="ms_songslist_like">
+                              <svg
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="17px"
+                                height="16px"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  fill="rgb(124, 142, 165)"
+                                  d="M11.777,-0.000 C10.940,-0.000 10.139,0.197 9.395,0.585 C9.080,0.749 8.783,0.947 8.506,1.173 C8.230,0.947 7.931,0.749 7.618,0.585 C6.874,0.197 6.073,-0.000 5.236,-0.000 C2.354,-0.000 0.009,2.394 0.009,5.337 C0.009,7.335 1.010,9.428 2.986,11.557 C4.579,13.272 6.527,14.702 7.881,15.599 L8.506,16.012 L9.132,15.599 C10.487,14.701 12.436,13.270 14.027,11.557 C16.002,9.428 17.004,7.335 17.004,5.337 C17.004,2.394 14.659,-0.000 11.777,-0.000 ZM5.236,2.296 C6.168,2.296 7.027,2.738 7.590,3.507 L8.506,4.754 L9.423,3.505 C9.986,2.737 10.844,2.296 11.777,2.296 C13.403,2.296 14.727,3.660 14.727,5.337 C14.727,6.734 13.932,8.298 12.364,9.986 C11.114,11.332 9.604,12.490 8.506,13.255 C7.409,12.490 5.899,11.332 4.649,9.986 C3.081,8.298 2.286,6.734 2.286,5.337 C2.286,3.660 3.610,2.296 5.236,2.296 Z"
+                                />
+                              </svg>
+                            </span>
+                            <span class="ms_songslist_time">04:23</span>
+                            <div class="ms_songslist_more">
+                              <span class="songslist_moreicon"
+                                ><svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  width="4px"
+                                  height="20px"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    fill="rgb(124, 142, 165)"
+                                    d="M2.000,12.000 C0.895,12.000 -0.000,11.105 -0.000,10.000 C-0.000,8.895 0.895,8.000 2.000,8.000 C3.104,8.000 4.000,8.895 4.000,10.000 C4.000,11.105 3.104,12.000 2.000,12.000 ZM2.000,4.000 C0.895,4.000 -0.000,3.105 -0.000,2.000 C-0.000,0.895 0.895,-0.000 2.000,-0.000 C3.104,-0.000 4.000,0.895 4.000,2.000 C4.000,3.105 3.104,4.000 2.000,4.000 ZM2.000,16.000 C3.104,16.000 4.000,16.895 4.000,18.000 C4.000,19.105 3.104,20.000 2.000,20.000 C0.895,20.000 -0.000,19.105 -0.000,18.000 C-0.000,16.895 0.895,16.000 2.000,16.000 Z"
+                                  /></svg
+                              ></span>
+                              <ul
+                                class="ms_common_dropdown ms_songslist_dropdown"
+                              >
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_fav"
+                                    ></span
+                                    >Favourites
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_downld"
+                                    ></span
+                                    >Download Now
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_playlist"
+                                    ></span
+                                    >Add to Playlist
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_share"
+                                    ></span
+                                    >Share
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="ms_songslist_inner">
+                          <div class="ms_songslist_left">
+                            <div class="songslist_number">
+                              <h4 class="songslist_sn">03</h4>
+                              <span class="songslist_play"
+                                ><img
+                                  src="assets/images/svg/play_songlist.svg"
+                                  alt="Play"
+                                  class="img-fluid"
+                              /></span>
+                            </div>
+                            <div class="songslist_details">
+                              <div class="songslist_thumb">
+                                <img
+                                  src="assets/images/songlist/03.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="songslist_name">
+                                <h3 class="song_name">
+                                  <a href="javascript:void(0);"
+                                    >Don’t Let me down</a
+                                  >
+                                </h3>
+                                <p class="song_artist">
+                                  David Parker, Virginia Harris
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="ms_songslist_right">
+                            <span class="ms_songslist_like">
+                              <svg
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="17px"
+                                height="16px"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  fill="rgb(124, 142, 165)"
+                                  d="M11.777,-0.000 C10.940,-0.000 10.139,0.197 9.395,0.585 C9.080,0.749 8.783,0.947 8.506,1.173 C8.230,0.947 7.931,0.749 7.618,0.585 C6.874,0.197 6.073,-0.000 5.236,-0.000 C2.354,-0.000 0.009,2.394 0.009,5.337 C0.009,7.335 1.010,9.428 2.986,11.557 C4.579,13.272 6.527,14.702 7.881,15.599 L8.506,16.012 L9.132,15.599 C10.487,14.701 12.436,13.270 14.027,11.557 C16.002,9.428 17.004,7.335 17.004,5.337 C17.004,2.394 14.659,-0.000 11.777,-0.000 ZM5.236,2.296 C6.168,2.296 7.027,2.738 7.590,3.507 L8.506,4.754 L9.423,3.505 C9.986,2.737 10.844,2.296 11.777,2.296 C13.403,2.296 14.727,3.660 14.727,5.337 C14.727,6.734 13.932,8.298 12.364,9.986 C11.114,11.332 9.604,12.490 8.506,13.255 C7.409,12.490 5.899,11.332 4.649,9.986 C3.081,8.298 2.286,6.734 2.286,5.337 C2.286,3.660 3.610,2.296 5.236,2.296 Z"
+                                />
+                              </svg>
+                            </span>
+                            <span class="ms_songslist_time">04:23</span>
+                            <div class="ms_songslist_more">
+                              <span class="songslist_moreicon"
+                                ><svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  width="4px"
+                                  height="20px"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    fill="rgb(124, 142, 165)"
+                                    d="M2.000,12.000 C0.895,12.000 -0.000,11.105 -0.000,10.000 C-0.000,8.895 0.895,8.000 2.000,8.000 C3.104,8.000 4.000,8.895 4.000,10.000 C4.000,11.105 3.104,12.000 2.000,12.000 ZM2.000,4.000 C0.895,4.000 -0.000,3.105 -0.000,2.000 C-0.000,0.895 0.895,-0.000 2.000,-0.000 C3.104,-0.000 4.000,0.895 4.000,2.000 C4.000,3.105 3.104,4.000 2.000,4.000 ZM2.000,16.000 C3.104,16.000 4.000,16.895 4.000,18.000 C4.000,19.105 3.104,20.000 2.000,20.000 C0.895,20.000 -0.000,19.105 -0.000,18.000 C-0.000,16.895 0.895,16.000 2.000,16.000 Z"
+                                  /></svg
+                              ></span>
+                              <ul
+                                class="ms_common_dropdown ms_songslist_dropdown"
+                              >
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_fav"
+                                    ></span
+                                    >Favourites
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_downld"
+                                    ></span
+                                    >Download Now
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_playlist"
+                                    ></span
+                                    >Add to Playlist
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_share"
+                                    ></span
+                                    >Share
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="ms_songslist_inner">
+                          <div class="ms_songslist_left">
+                            <div class="songslist_number">
+                              <h4 class="songslist_sn">04</h4>
+                              <span class="songslist_play"
+                                ><img
+                                  src="assets/images/svg/play_songlist.svg"
+                                  alt="Play"
+                                  class="img-fluid"
+                              /></span>
+                            </div>
+                            <div class="songslist_details">
+                              <div class="songslist_thumb">
+                                <img
+                                  src="assets/images/songlist/02.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="songslist_name">
+                                <h3 class="song_name">
+                                  <a href="javascript:void(0);"
+                                    >Dark Alley Acoustic</a
+                                  >
+                                </h3>
+                                <p class="song_artist">
+                                  Kevin Buckland, Carl Brown
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="ms_songslist_right">
+                            <span class="ms_songslist_like">
+                              <svg
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="17px"
+                                height="16px"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  fill="rgb(124, 142, 165)"
+                                  d="M11.777,-0.000 C10.940,-0.000 10.139,0.197 9.395,0.585 C9.080,0.749 8.783,0.947 8.506,1.173 C8.230,0.947 7.931,0.749 7.618,0.585 C6.874,0.197 6.073,-0.000 5.236,-0.000 C2.354,-0.000 0.009,2.394 0.009,5.337 C0.009,7.335 1.010,9.428 2.986,11.557 C4.579,13.272 6.527,14.702 7.881,15.599 L8.506,16.012 L9.132,15.599 C10.487,14.701 12.436,13.270 14.027,11.557 C16.002,9.428 17.004,7.335 17.004,5.337 C17.004,2.394 14.659,-0.000 11.777,-0.000 ZM5.236,2.296 C6.168,2.296 7.027,2.738 7.590,3.507 L8.506,4.754 L9.423,3.505 C9.986,2.737 10.844,2.296 11.777,2.296 C13.403,2.296 14.727,3.660 14.727,5.337 C14.727,6.734 13.932,8.298 12.364,9.986 C11.114,11.332 9.604,12.490 8.506,13.255 C7.409,12.490 5.899,11.332 4.649,9.986 C3.081,8.298 2.286,6.734 2.286,5.337 C2.286,3.660 3.610,2.296 5.236,2.296 Z"
+                                />
+                              </svg>
+                            </span>
+                            <span class="ms_songslist_time">04:23</span>
+                            <div class="ms_songslist_more">
+                              <span class="songslist_moreicon"
+                                ><svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  width="4px"
+                                  height="20px"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    fill="rgb(124, 142, 165)"
+                                    d="M2.000,12.000 C0.895,12.000 -0.000,11.105 -0.000,10.000 C-0.000,8.895 0.895,8.000 2.000,8.000 C3.104,8.000 4.000,8.895 4.000,10.000 C4.000,11.105 3.104,12.000 2.000,12.000 ZM2.000,4.000 C0.895,4.000 -0.000,3.105 -0.000,2.000 C-0.000,0.895 0.895,-0.000 2.000,-0.000 C3.104,-0.000 4.000,0.895 4.000,2.000 C4.000,3.105 3.104,4.000 2.000,4.000 ZM2.000,16.000 C3.104,16.000 4.000,16.895 4.000,18.000 C4.000,19.105 3.104,20.000 2.000,20.000 C0.895,20.000 -0.000,19.105 -0.000,18.000 C-0.000,16.895 0.895,16.000 2.000,16.000 Z"
+                                  /></svg
+                              ></span>
+                              <ul
+                                class="ms_common_dropdown ms_songslist_dropdown"
+                              >
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_fav"
+                                    ></span
+                                    >Favourites
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_downld"
+                                    ></span
+                                    >Download Now
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_playlist"
+                                    ></span
+                                    >Add to Playlist
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_share"
+                                    ></span
+                                    >Share
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="ms_songslist_inner">
+                          <div class="ms_songslist_left">
+                            <div class="songslist_number">
+                              <h4 class="songslist_sn">05</h4>
+                              <span class="songslist_play"
+                                ><img
+                                  src="assets/images/svg/play_songlist.svg"
+                                  alt="Play"
+                                  class="img-fluid"
+                              /></span>
+                            </div>
+                            <div class="songslist_details">
+                              <div class="songslist_thumb">
+                                <img
+                                  src="assets/images/songlist/05.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="songslist_name">
+                                <h3 class="song_name">
+                                  <a href="javascript:void(0);"
+                                    >Until I Met You</a
+                                  >
+                                </h3>
+                                <p class="song_artist">
+                                  Jennifer Kelly, Virginia Harris
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="ms_songslist_right">
+                            <span class="ms_songslist_like">
+                              <svg
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="17px"
+                                height="16px"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  fill="rgb(124, 142, 165)"
+                                  d="M11.777,-0.000 C10.940,-0.000 10.139,0.197 9.395,0.585 C9.080,0.749 8.783,0.947 8.506,1.173 C8.230,0.947 7.931,0.749 7.618,0.585 C6.874,0.197 6.073,-0.000 5.236,-0.000 C2.354,-0.000 0.009,2.394 0.009,5.337 C0.009,7.335 1.010,9.428 2.986,11.557 C4.579,13.272 6.527,14.702 7.881,15.599 L8.506,16.012 L9.132,15.599 C10.487,14.701 12.436,13.270 14.027,11.557 C16.002,9.428 17.004,7.335 17.004,5.337 C17.004,2.394 14.659,-0.000 11.777,-0.000 ZM5.236,2.296 C6.168,2.296 7.027,2.738 7.590,3.507 L8.506,4.754 L9.423,3.505 C9.986,2.737 10.844,2.296 11.777,2.296 C13.403,2.296 14.727,3.660 14.727,5.337 C14.727,6.734 13.932,8.298 12.364,9.986 C11.114,11.332 9.604,12.490 8.506,13.255 C7.409,12.490 5.899,11.332 4.649,9.986 C3.081,8.298 2.286,6.734 2.286,5.337 C2.286,3.660 3.610,2.296 5.236,2.296 Z"
+                                />
+                              </svg>
+                            </span>
+                            <span class="ms_songslist_time">04:23</span>
+                            <div class="ms_songslist_more">
+                              <span class="songslist_moreicon"
+                                ><svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  width="4px"
+                                  height="20px"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    fill="rgb(124, 142, 165)"
+                                    d="M2.000,12.000 C0.895,12.000 -0.000,11.105 -0.000,10.000 C-0.000,8.895 0.895,8.000 2.000,8.000 C3.104,8.000 4.000,8.895 4.000,10.000 C4.000,11.105 3.104,12.000 2.000,12.000 ZM2.000,4.000 C0.895,4.000 -0.000,3.105 -0.000,2.000 C-0.000,0.895 0.895,-0.000 2.000,-0.000 C3.104,-0.000 4.000,0.895 4.000,2.000 C4.000,3.105 3.104,4.000 2.000,4.000 ZM2.000,16.000 C3.104,16.000 4.000,16.895 4.000,18.000 C4.000,19.105 3.104,20.000 2.000,20.000 C0.895,20.000 -0.000,19.105 -0.000,18.000 C-0.000,16.895 0.895,16.000 2.000,16.000 Z"
+                                  /></svg
+                              ></span>
+                              <ul
+                                class="ms_common_dropdown ms_songslist_dropdown"
+                              >
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_fav"
+                                    ></span
+                                    >Favourites
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_downld"
+                                    ></span
+                                    >Download Now
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_playlist"
+                                    ></span
+                                    >Add to Playlist
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);">
+                                    <span
+                                      class="common_drop_icon drop_share"
+                                    ></span
+                                    >Share
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ms_music_right">
+                <!-- You may also like section -->
+                <div
+                  class="ms_artist_slider also_like_slider ms_artist_slider_topspace"
+                >
+                  <div class="slider_heading_wrap">
+                    <div class="slider_cheading">
+                      <h4 class="cheading_title">You may also like &nbsp;</h4>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="slider_cmn_controls">
+                      <div class="slider_cmn_nav">
+                        <span
+                          class="swiper-button-next1 slider_nav_next"
+                        ></span>
+                      </div>
+                      <div class="slider_cmn_nav">
+                        <span
+                          class="swiper-button-prev1 slider_nav_prev"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ms_artist_innerslider">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/01.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >One More Stranger</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2015
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/02.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Cloud Nine</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2016
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/03.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Desired Games</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2017
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/04.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Bloodlust 2</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2018
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/05.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Until I Met You 2</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2019
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/06.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Desired Games 2</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2020
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- You may also like section -->
+                <div class="ms_artist_slider also_like_slider2">
+                  <div class="slider_heading_wrap">
+                    <div class="slider_cheading">
+                      <h4 class="cheading_title">You may also like &nbsp;</h4>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="slider_cmn_controls">
+                      <div class="slider_cmn_nav">
+                        <span
+                          class="swiper-button-next2 slider_nav_next"
+                        ></span>
+                      </div>
+                      <div class="slider_cmn_nav">
+                        <span
+                          class="swiper-button-prev2 slider_nav_prev"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ms_artist_innerslider">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/07.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Don’t Let me down</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2020
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/08.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Desired Games 2</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2019
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/09.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Until I Met You 2</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2018
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/10.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Bloodlust 2</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2017
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/11.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Desired Games</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2016
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="slider_cbox slider_artist_box text-center"
+                          >
+                            <div class="slider_cimgbox slider_artist_imgbox">
+                              <img
+                                src="assets/images/album/12.jpg"
+                                alt="artist"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="slider_ctext slider_artist_text">
+                              <a
+                                class="slider_ctitle slider_artist_ttl"
+                                href="javascript:void(0)"
+                                >Cloud Nine</a
+                              >
+                              <p class="slider_cdescription slider_artist_des">
+                                2015
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---Main Content end--->
+
+      <!----Audio Player Section---->
+      <div class="ms_player_wrapper">
+        <div class="ms_player_close">
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </div>
+        <div class="player_mid">
+          <div class="audio-player">
+            <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+            <div
+              id="jp_container_1"
+              class="jp-audio"
+              role="application"
+              aria-label="media player"
+            >
+              <div class="player_left">
+                <div class="ms_play_song">
+                  <div class="play_song_name">
+                    <a href="javascript:void(0);" id="playlist-text">
+                      <div class="jp-now-playing flex-item">
+                        <div class="jp-track-name"></div>
+                        <div class="jp-artist-name"></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="play_song_options">
+                  <ul>
+                    <li>
+                      <a href="#"
+                        ><span class="song_optn_icon"
+                          ><i class="ms_icon icon_download"></i></span
+                        >download now</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><span class="song_optn_icon"
+                          ><i class="ms_icon icon_fav"></i></span
+                        >Add To Favourites</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><span class="song_optn_icon"
+                          ><i class="ms_icon icon_playlist"></i></span
+                        >Add To Playlist</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><span class="song_optn_icon"
+                          ><i class="ms_icon icon_share"></i></span
+                        >Share</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <span class="play-left-arrow"
+                  ><i class="fa fa-angle-right" aria-hidden="true"></i
+                ></span>
+              </div>
+              <!----Right Queue---->
+              <div class="jp_queue_wrapper">
+                <span class="que_text ms_btn" id="myPlaylistQueue"
+                  ><i class="fa fa-angle-up" aria-hidden="true"></i> queue</span
+                >
+                <div id="playlist-wrap" class="jp-playlist">
+                  <div class="jp_queue_cls">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </div>
+                  <h2>queue</h2>
+                  <div class="jp_queue_list_inner">
+                    <ul>
+                      <li>&nbsp;</li>
+                    </ul>
+                  </div>
+                  <div class="jp_queue_btn">
+                    <a
+                      href="clear_modal.html"
+                      class="ms_save ms_btn"
+                      data-toggle="modal"
+                      data-target="#save_modal"
+                      >save Playlist</a
+                    >
+                    <a
+                      href="javascript:;"
+                      class="ms_clear"
+                      data-toggle="modal"
+                      data-target="#clear_modal"
+                      >clear</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="jp-type-playlist">
+                <div class="jp-gui jp-interface flex-wrap">
+                  <div class="jp-controls flex-item">
+                    <button class="jp-previous" tabindex="0">
+                      <i class="ms_play_control"></i>
+                    </button>
+                    <button class="jp-play" tabindex="0">
+                      <i class="ms_play_control"></i>
+                    </button>
+                    <button class="jp-next" tabindex="0">
+                      <i class="ms_play_control"></i>
+                    </button>
+                  </div>
+                  <div class="jp-progress-container flex-item">
+                    <div class="jp-time-holder">
+                      <span
+                        class="jp-current-time"
+                        role="timer"
+                        aria-label="time"
+                        >&nbsp;</span
+                      >
+                      <span
+                        class="jp-duration"
+                        role="timer"
+                        aria-label="duration"
+                        >&nbsp;</span
+                      >
+                    </div>
+                    <div class="jp-progress">
+                      <div class="jp-seek-bar">
+                        <div class="jp-play-bar">
+                          <div class="bullet"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="jp-volume-controls flex-item">
+                    <div class="widget knob-container">
+                      <div class="knob-wrapper-outer">
+                        <div class="knob-wrapper">
+                          <div class="knob-mask">
+                            <div class="knob d3"><span></span></div>
+                            <div class="handle"></div>
+                            <div class="round">
+                              <img
+                                src="assets/images/svg/volume.svg"
+                                alt="volume"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <input></input> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="jp-toggles flex-item">
+                    <button class="jp-shuffle" tabindex="0" title="Shuffle">
+                      <i class="ms_play_control"></i>
+                    </button>
+                    <button class="jp-repeat" tabindex="0" title="Repeat">
+                      <i class="ms_play_control"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--main div-->
+      </div>
+    </div>
+
+    <!--Main js file Style-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/swiper/js/swiper.min.js"></script>
+    <script src="assets/js/plugins/player/jplayer.playlist.min.js"></script>
+    <script src="assets/js/plugins/player/jquery.jplayer.min.js"></script>
+    <script src="assets/js/plugins/player/audio-player.js"></script>
+    <script src="assets/js/plugins/player/volume.js"></script>
+    <script src="assets/js/plugins/scroll/jquery.mCustomScrollbar.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+
+  <!-- Mirrored from kamleshyadav.com/html/miraculous/html/Bootstrap5/version3/music.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Jul 2024 22:12:58 GMT -->
+</html>

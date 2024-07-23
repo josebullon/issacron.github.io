@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('CerebriSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('CerebriSans-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('CerebriSans-Book.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('CerebriSans-BookItalic.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url('CerebriSans-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url('CerebriSans-Heavy.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url('CerebriSans-HeavyItalic.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url('CerebriSans-Italic.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('CerebriSans-Light.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url('CerebriSans-LightItalic.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('CerebriSans-Medium.ttf');
+}
+@font-face {
+    font-family: 'CerebriSans';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url('CerebriSans-MediumItalic.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url('Oswald-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('Oswald-Light.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('Oswald-Medium.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('Oswald-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: 'IPAMincho';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('IPAMincho.html\ Regular.ttf');
+}

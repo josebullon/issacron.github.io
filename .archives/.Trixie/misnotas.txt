@@ -1,0 +1,100 @@
+variable local
+
+<?php
+  $principal = 'active';
+?>
+
+declarando el header 
+<?php
+  include_once("layout/header.php");
+?>
+
+
+header variables globales
+<?php
+  $title = 'SIGALA';
+  $lorem1 = 'Lorem ipsum dolor sit amet. Et similique maiores aut rerum autemet voluptas et reiciendis explicabo. Quo sapiente beatae est distinctio expeditaquo quam id ipsam numquam.';
+  $lorem2 = 'Lorem ipsum dolor sit amet. Et similique maiores aut rerum autemet voluptas et reiciendis explicabo.';
+  $lorem3 = 'Lorem ipsum dolor sit amet? ';
+  $lorem4 = 'Lorem ipsum dolor sit amet';
+  $correo = 'josesigala@ejemplo.com';
+  $telefono = '+123456789';
+  $fblog = 'categoria / Oct 04, 2023';
+?>
+
+un nav trabajado para  web site
+
+<nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+          <a class="logo" href="index.html"> <img src="images/logo.png" class="logo-img" alt=""> </a>
+          <!-- <a class="logo" href="index.html"> <h2>POZO</h2> </a> -->
+        </div>
+        <!-- Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+            class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link <?php echo $principal; ?>" href="index.php">Principal</a></li>
+            <li class="nav-item"><a class="nav-link <?php echo $nosotros; ?>" href="about.php">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link <?php echo $servicios; ?>" href="services.php">Servicios</a></li>
+            <li class="nav-item dropdown"> <a class="nav-link <?php echo $galeria; ?> dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Galeria<i
+                  class="fa fa-angle-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="gallery.php" class="dropdown-item <?php echo $gimagen; ?>"><span>G.Imagen</span></a></li>
+                <li><a href="video.php" class="dropdown-item <?php echo $gvideo; ?>"><span>G.video</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link <?php echo $paginas; ?> dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Paginas <i
+                  class="fa fa-angle-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="pricing.php" class="dropdown-item <?php echo $precios; ?>" href="pricing.php">Precios</span></a></li>
+                <li><a href="team.php" class="dropdown-item <?php echo $equipo; ?>" href="team.php">Equipo</span></a></li>
+                <li><a href="team-details.php" class="dropdown-item <?php echo $dequipo; ?>" href="team-details.php">Detalles Equipo</span></a></li>
+                <li><a href="faqs.php" class="dropdown-item <?php echo $preguntas; ?>" href="faqs.php">Preguntas</span></a></li>
+                <li><a href="project-page.php" class="dropdown-item <?php echo $proyectos; ?>" href="project-page.php">Proyectos</span></a></li>
+                <li><a href="post.php" class="dropdown-item <?php echo $post; ?>" href="post.php">Post</span></a></li>
+                <li class="dropdown-submenu dropdown"> <a class="dropdown-item <?php echo $opaginas; ?> dropdown-toggle"
+                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Otras Paginas</i></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="404.php" class="dropdown-item <?php echo $error; ?>"><span>404 Error</span></a></li>
+                    <li><a href="coming-soon.php" class="dropdown-item <?php echo $coming; ?>"><span>Coming Soon</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link <?php echo $proyectos; ?>" href="project.php">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link <?php echo $blog; ?>" href="blog.php">Blog</a></li>
+            <li class="nav-item"><a class="nav-link <?php echo $contactame; ?>" href="contact.php">Contactame</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+justificando un texto de una variable
+
+<p data-swiper-parallax-x="-40%" class="next-paragraph" style="text-align: justify;"><?php echo $fblog; ?></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+declarando el footer
+
+<?php
+  include_once("layout/footer.php");
+?>

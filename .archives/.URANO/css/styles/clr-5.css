@@ -1,0 +1,110 @@
+b,
+.section-subtitle,
+.navbar .icon-bar,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active,
+.nav-scroll .icon-bar,
+.nav-scroll .logo-wrapper .logo h2,
+.logo-wrapper .logo h2,
+.dropdown-menu .dropdown-item:hover,
+.sub-menu .dropdown-item:hover,
+.header .caption h6,
+.banner-header h5 a,
+.banner-header p a,
+.banner-header h6 a:hover,
+.services .item .icon,
+.projects-prev-next a:hover,
+.price .item .value p,
+.accordion-box .block .acc-btn.active .count,
+.accordion-box .block .acc-btn.active,
+.play-button.color,
+.testimonials .item .info i,
+.nopixel-blog .content .date h1,
+.nopixel-blog .content .cont .more:hover,
+.nopixel-blog .content .info .tags,
+.nopixel-pagination-wrap li a:hover,
+.nopixel-pagination-wrap li a.active,
+.nopixel-repay,
+.nopixel-post-prev-next a:hover,
+.btn-curve.btn-borderyellow,
+.main-footer .abot .social-icon a:hover,
+.main-footer .usful-links ul li a:hover,
+.main-footer .sub-footer p a:hover,
+.progress-wrap::after,
+.progress-wrap::after,
+.comming h6,
+.go-back a:hover,
+.nav-scroll .navbar-collapse .active {
+  color: #7369b9;
+}
+
+.nav-scroll .navbar-nav .active,
+.navbar .navbar-nav .active {
+  color: #7369b9 !important;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.owl-theme .owl-nav [class*=owl-]:hover,
+.about-since .team .owl-dots .owl-dot.active span,
+.team .owl-dots .owl-dot:hover span,
+.sidebar .services ul li:before,
+.accordion-box .block,
+.video-gallery-polygon,
+.testimonials-box,
+.nopixel-blog .content .cont .more:after,
+.btn-curve.btn-bgwhite:after,
+.btn-curve.btn-borderyellow:after,
+.btn-curve.btn-bgyellow,
+.about-since,
+.team .owl-dots .owl-dot.active span,
+.team .owl-dots .owl-dot:hover span {
+  background: #7369b9;
+}
+
+.team .info .social,
+.services .item:hover,
+.comming form button {
+  background-color: #7369b9;
+}
+
+.alert-success,
+.owl-theme .owl-nav [class*=owl-],
+.owl-theme .owl-nav [class*=owl-]:hover,
+.team .owl-dots .owl-dot span,
+.team .owl-dots .owl-dot.active span,
+.team .owl-dots .owl-dot:hover span,
+.video-gallery-polygon,
+.nopixel-pagination-wrap li a:hover,
+.nopixel-pagination-wrap li a.active,
+.comming form input {
+  border: 1px solid #7369b9;
+}
+
+input:focus,
+textarea:focus,
+.line-vr-section,
+.btn-curve.btn-bgwhite:hover,
+.btn-curve.btn-borderyellow,
+.btn-curve.btn-bgyellow {
+  border-color: #7369b9;
+}
+
+.line-hr-primary,
+.line-hr-secondary {
+  border-top: 1px solid #7369b9 !important;
+}
+
+.loader span {
+  border-top: 2px solid #7369b9;
+}
+
+.play-button.color .circle-fill circle {
+  fill: #7369b9;
+}
+
+.progress-wrap svg.progress-circle path {
+  stroke: #7369b9;
+}
